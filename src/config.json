@@ -1,0 +1,43 @@
+{
+    "mode": "dev",
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "<user>",
+        "password": "<password>",
+        "database": "<schema>",
+        "charset": "utf8_general_ci",
+        "acquireTimeout": 10000,
+        "connectionLimit": 10
+    },
+    "express": {
+        "port": 8080,
+        "basePath": "/api"
+    },
+    "build": {
+        "tables": {
+            "prefix": "t_",
+            "include": "all",
+            "except": {},
+            "config": {}
+        },
+        "views": {
+            "prefix": "v_",
+            "include": "all",
+            "except": {},
+            "config": {}
+        },
+        "procedures": {
+            "prefix": "p_",
+            "include": "all",
+            "except": {},
+            "config": {}
+        },
+        "functions": {
+            "prefix": "f_",
+            "include": "all",
+            "except": {},
+            "config": {}
+        }
+    }
+}

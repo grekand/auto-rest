@@ -1,0 +1,5 @@
+# Módulos de node
+node_modules/
+
+# Directorio de distribución
+dist/
